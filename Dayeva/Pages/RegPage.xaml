@@ -1,0 +1,33 @@
+﻿<Page x:Class="Dayeva.Pages.RegPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Dayeva.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RegPage">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Введите имя:"/>
+            <TextBox Name="TxbName"/>
+            <TextBlock Text="Введите фамилия:"/>
+            <TextBox Name="TxbSur"/>
+            <TextBlock Text="Введите отчество:"/>
+            <TextBox Name="TxbPatr"/>
+            <TextBlock Text="Введите номер паспорта:"/>
+            <TextBox Name="TxbNumPassport"/>
+            <TextBlock Text="Введите серии паспорта:"/>
+            <TextBox Name="TxbSerPassport"/>
+            <TextBlock Text="Введите логин:"/>
+            <TextBox Name="TxbLog"/>
+            <TextBlock Text="Введите пароль:"/>
+            <TextBox Name="TxbPass"/>
+            <TextBlock Text="Повторите пароль:"/>
+            <TextBox Name="TxbCopyPass"/>
+            <Button Content="Регистрация" Name="BtnReg" Click="BtnReg_Click"/>
+            <Button Content="Назад" Name="BtnBack" Click="BtnBack_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
